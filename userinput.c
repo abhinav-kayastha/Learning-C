@@ -17,7 +17,6 @@ int main()
 
     printf("Your name is %s", name);
     printf(", and you are %d years old.", age);
-
-    // returning 0
+    
     return 0;
 }

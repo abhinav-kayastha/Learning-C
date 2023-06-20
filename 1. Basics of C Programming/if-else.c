@@ -11,10 +11,12 @@ int main()
     }
     */
 
-    if (5 < 6) {
+    if (5 < 6)
+    {
         printf("first num is smaller than second num.\n");
     }
-    else {
+    else
+    {
         printf("first num is larger than second num.");
     }
 }

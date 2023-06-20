@@ -8,6 +8,10 @@ int main()
     * = multiply
     / = divide
     % = modulus, calculates remainder after division
+
+    AND = &&
+    NOT = !
+    OR = ||
     */
 
     int age = 4;

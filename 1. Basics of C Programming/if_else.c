@@ -26,4 +26,6 @@ int main()
     {
         printf("first num is equal to second num.");
     }
+
+    return 0;
 }

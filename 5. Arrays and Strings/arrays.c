@@ -10,7 +10,7 @@ int main()
 
     float prices[] = {5, 10, 15, 20, 25, 30};
 
-    for (int i = 0; i < (sizeof(prices)) / sizeof(prices[0]);    i++)
+    for (int i = 0; i < (sizeof(prices)) / sizeof(prices[0]); i++)
     {
         printf("$%.2f\n", prices[i]);
     }

@@ -2,5 +2,6 @@
   "cmake.configureOnOpen": true,
   "files.associations": {
     "arithmetic_functions.h": "c"
-  }
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }

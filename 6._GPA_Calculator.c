@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-float avg_calc(float grades[])
+float avg_calc(float grades[], int size)
 {
-    float sum;
-    for (int i = 1; i <= sizeof(grades) / sizeof(grades[0]); i++)
+    float sum = 0;
+    for (int i = 0; i <= size; i++)
     {
-        sum += i;
+        sum += grades[i];
     }
 
-    return sum / (sizeof(grades) / sizeof(grades[0]));
+    return sum / size;
 }
 
 int main()
@@ -35,6 +35,8 @@ int main()
     }
     */
 
-   
+    float avg = avg_calc(grades, amount_of_grades);
+    printf("The average grade is: %f\n", avg);
+
     return 0;
 }

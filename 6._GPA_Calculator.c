@@ -29,12 +29,6 @@ int main()
         grades[i] = grade;
     }
 
-    /*for (int j = 1; j <= sizeof(grades) / sizeof(grades[0]); j++)
-    {
-        printf("%d\n", j);
-    }
-    */
-
     float avg = avg_calc(grades, amount_of_grades);
     printf("The average grade is: %f\n", avg);
 

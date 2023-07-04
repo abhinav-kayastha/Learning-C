@@ -30,7 +30,7 @@ int main()
     }
 
     float avg = avg_calc(grades, amount_of_grades);
-    printf("The average grade is: %f\n", avg);
+    printf("The average grade is: %.2f\n", avg);
 
     return 0;
 }
